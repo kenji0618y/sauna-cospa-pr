@@ -1,6 +1,6 @@
 # GOMIRACHELIN 全体ロードマップ
 
-最終更新：2026-11-06
+最終更新：2026-11-25
 
 ## 目的
 
@@ -11,17 +11,17 @@ ConoHaからGitHub中心の無料運用（`https://gomirachelin.github.io/sauna-
 - 新しいページ・修正・作業記録はGitHub（`gomirachelin/sauna-cospa`）だけに保存する。
 - 月額・年額費用をゼロにするため、独自ドメイン `sauna-cospa.com` や有料レンタルサーバー（ConoHa WING）は使わず、GitHub Pages の無料アドレス `https://gomirachelin.github.io/sauna-cospa/` で公開する。
 - 旧URL（`sauna-cospa.com`・`kenji0618y.github.io/sauna-cospa/`）は転送専用リポジトリで新URLへ自動転送する（ドメイン期限 2027-06-14 まで）。
-- 公開メニューはGitHubの静的地図を使い、GAS地図v91は予備として残す。Google Sheetsは当面継続する。
+- 公開メニューはエリア・宿泊・ふるさと納税検索ページ「AREA」（`map/index.html`）と海外サウナ「WORLD」（`world/index.html`）を使い、Google Sheets（`GOMIRACHELIN_v13`）は正本DBとして継続する。
 
 ## 一目で見る現在地
 
-- **完了**：地図バージョン91、ログイン不要のGitHub静的地図、AI共通ルール、ロードマップ作成、Pages基本ファイル、サウナ大学画像35枚のGitHub移行、ConoHaのWeb・DBバックアップ、全ページの静的地図メニュー統一、Amazon必須表記とAmazon枠の追加、ConoHa WING自動更新OFF、GitHub無料アドレス化（2026-10-22）、組織 `gomirachelin/sauna-cospa` への移設（2026-11-02）、切替後30日監視の完了（〜2026-11-05）。
+- **完了**：地図バージョン91、ログイン不要のGitHub静的地図、AI共通ルール、ロードマップ作成、Pages基本ファイル、サウナ大学画像35枚のGitHub移行、ConoHaのWeb・DBバックアップ、Amazon必須表記とAmazon枠の追加、ConoHa WING自動更新OFF、GitHub無料アドレス化（2026-10-22）、組織 `gomirachelin/sauna-cospa` への移設（2026-11-02）、切替後30日監視の完了（〜2026-11-05）、「さふぃスパ沖縄」正本同期、神戸サウナの重複枠整理、WHYトップ化とHOW新設、英語メニュー統一、AREA刷新＆WORLD新設、全ページのOGP・構造化データ対応、全48レビュー記事への「🏨楽天トラベル／🎁ふるさと納税」枠追加、「ふくの湯」「上野オリエンタル3」の本文追加（全48記事の本文完備）。
 - **今ここ**：**移行完了・通常運用とサイト改善**。サイトは `https://gomirachelin.github.io/sauna-cospa/` で安定稼働中。ConoHa WING（契約満了日 2027-07-01）とドメイン `sauna-cospa.com`（期限 2027-06-14）は自動更新OFFで自然終了待ち。
 - **期限つき（Amazonアソシエイト）**：2026-12-31ごろまでに3件売れると本審査が始まる。登録サイトのURLが現在の公開URL（`https://gomirachelin.github.io/sauna-cospa/`）になっているかAmazon管理画面で確認しておく。
 - **次の3件**：
-  1. 2026-10-28に追加した「さふぃスパ沖縄」を正本データ（`data/rankings.json`）・10項目別ランキング・レビュー一覧・地図へ反映し、`scripts/build_rankings.py` を `/sauna-cospa/` パスに対応する。
-  2. 地図の座標未登録65施設の段階補完（現在109/174施設完了）。
-  3. Google Sheets全体の非公開バックアップ、タイパ0.0施設の確認、未作成レビュー本文（ふくの湯・オリエンタル3）の追加。
+  1. Google Search Console へのサイトマップ登録と、必要に応じたサウナ大学レッスンの個別ページ化。
+  2. タイパ0.0施設の確認、Google Sheets全体の非公開バックアップ。
+  3. 新規レビュー記事・海外サウナ（WORLD）の継続追加。
 - **継続して進めること**：新規レビュー追加、スマートフォン表示・リンク切れ・アクセス解析の点検。
 
 HTMLの見える化版：`docs/roadmap.html`

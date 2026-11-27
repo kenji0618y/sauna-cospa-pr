@@ -6042,5 +6042,40 @@
     },
     "canStay": false,
     "furusato": false
+  },
+  {
+    "name": "thida sauna",
+    "pref": "沖縄県",
+    "sourceRow": 183,
+    "area": "中頭郡読谷村",
+    "posted": true,
+    "closed": false,
+    "price": 2500,
+    "stay": 12,
+    "perf": 63,
+    "cospa": 29.8,
+    "yenH": 208,
+    "url": "https://lazor-searesort.jp/lp/sauna/",
+    "gaiki": true,
+    "rouryu": true,
+    "kind": "ホテル・リゾートサウナ",
+    "target": "男女（水着着用）",
+    "lat": 0,
+    "lng": 0,
+    "axes": {
+      "a1": 7,
+      "a2": 7,
+      "a3": 5,
+      "a4": 7,
+      "a5": 6,
+      "a6": 6,
+      "a7": 6,
+      "a8": 5,
+      "a9": 8,
+      "a10": 6
+    },
+    "canStay": true,
+    "furusato": true,
+    "slug": "thida-sauna"
   }
 ]

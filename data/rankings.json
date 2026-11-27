@@ -3313,6 +3313,34 @@
       "area": "宜野湾市",
       "stay": true,
       "furusato": true
+    },
+    {
+      "name": "thida sauna",
+      "pref": "沖縄県",
+      "price": 2500,
+      "min": null,
+      "yen_h": 208,
+      "total": 63,
+      "cospa": 29.8,
+      "taipa": null,
+      "slug": "thida-sauna",
+      "closed": false,
+      "official": "https://lazor-searesort.jp/lp/sauna/",
+      "axes": {
+        "a1": 7.0,
+        "a2": 7.0,
+        "a3": 5.0,
+        "a4": 7.0,
+        "a5": 6.0,
+        "a6": 6.0,
+        "a7": 6.0,
+        "a8": 5.0,
+        "a9": 8.0,
+        "a10": 6.0
+      },
+      "area": "中頭郡読谷村",
+      "stay": true,
+      "furusato": true
     }
   ]
 }
